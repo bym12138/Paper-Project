@@ -85,8 +85,8 @@ def main():
                         break
                     commits = get_commits(repo['full_name'], releases[i+1]['tag_name'], releases[i]['tag_name'])
                     print({
-                        'repo': repo['full_name'],
-                        'stars': repo['stargazers_count'],
+                           'repo': repo['full_name'],
+                           'stars': repo['stargazers_count'],
                         'language': repo['language'],
                         'note_url': releases[i]['html_url'],
                         'commits_url': commits['html_url']
