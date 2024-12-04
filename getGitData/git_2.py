@@ -5,7 +5,7 @@ import os
 from bs4 import BeautifulSoup
 from requests.exceptions import SSLError
 
-token = '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'
+token = '  '
 
 F_SYNONYMS = open('/data/home2/kjb/bym/project/BART/getGitData/words/features.txt').read().split('\n')
 I_SYNONYMS = open('/data/home2/kjb/bym/project/BART/getGitData/words/improvements.txt').read().split('\n')

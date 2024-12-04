@@ -6,7 +6,7 @@ from tqdm import tqdm
 
 from github import GitHubApi
 api = GitHubApi()
-token = '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'
+token = ''
 BASE_URL = 'https://api.github.com'
 
 F_SYNONYMS = open('/data/home2/kjb/bym/project/BART/getGitData/RNSum-Dataset/words/features.txt').read().split('\n')

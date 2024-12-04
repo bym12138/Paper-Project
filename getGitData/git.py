@@ -39,7 +39,7 @@ import requests
 import json
 
 # Your GitHub Personal Access Token
-token = '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'
+token = ''
 
 # GitHub API URL for repositories sorted by stars
 url = "https://api.github.com/search/repositories?q=stars:%3E300&sort=stars"

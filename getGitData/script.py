@@ -136,7 +136,7 @@ def get_release_note(repo, version):
     return release_note
 
 api = GitHubApi()
-token = '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'
+token = '  '
 
 data = []
 df = pd.read_json('/data/home2/kjb/bym/project/BART/getGitData/rnsum.jsonl', orient='records', lines=True)
