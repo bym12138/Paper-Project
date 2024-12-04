@@ -6,12 +6,6 @@ import os
 from bs4 import BeautifulSoup
 from requests.exceptions import SSLError
 
-token = ''
-# F_SYNONYMS = open('/Users/zhengyi/Desktop/link/features.txt').read().split('\n')
-# I_SYNONYMS = open('/Users/zhengyi/Desktop/link/improvements.txt').read().split('\n')
-# BF_SYNONYMS = open('/Users/zhengyi/Desktop/link/bug_fixes.txt').read().split('\n')
-# DR_SYNONYMS = open('/Users/zhengyi/Desktop/link/deprecations_removals.txt').read().split('\n')
-# ALL_SYNONYMS = F_SYNONYMS + I_SYNONYMS + BF_SYNONYMS + DR_SYNONYMS
 
 F_SYNONYMS = open('C:/Users/Administrator/Documents/Mr.b/python本地/project/BART/getGitData/words/features.txt').read().split('\n')
 I_SYNONYMS = open('C:/Users/Administrator/Documents/Mr.b/python本地/project/BART/getGitData/words/improvements.txt').read().split('\n')
