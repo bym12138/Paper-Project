@@ -6,7 +6,7 @@ import os
 from bs4 import BeautifulSoup
 from requests.exceptions import SSLError
 
-token = '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'
+token = ' '
 # F_SYNONYMS = open('/Users/zhengyi/Desktop/link/features.txt').read().split('\n')
 # I_SYNONYMS = open('/Users/zhengyi/Desktop/link/improvements.txt').read().split('\n')
 # BF_SYNONYMS = open('/Users/zhengyi/Desktop/link/bug_fixes.txt').read().split('\n')
