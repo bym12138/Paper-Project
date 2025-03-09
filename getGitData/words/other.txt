@@ -1,8 +1,0 @@
-chore
-refactor
-test
-doc
-build
-style
-ci
-revert

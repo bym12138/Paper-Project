@@ -1,3 +1,0 @@
-fix
-bug
-bugfix
